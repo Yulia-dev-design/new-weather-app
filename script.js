@@ -62,7 +62,7 @@ function showTemperatureFromUrl(url) {
     h1.innerHTML = `You are in ${response.data.name}`;
     let temperature = Math.round(response.data.main.temp);
     let windSpeed = response.data.wind.speed;
-    let icon = response.data.weather[0].icon;
+    let iconElement = response.data.weather[0].icon;
     let description = response.data.weather[0].description;
     let precipitation;
     if (response.data.precipitation) {
