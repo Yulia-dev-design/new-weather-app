@@ -7,6 +7,8 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
 crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/axios/dist/axios.min.js"> </script>
 <title>Weather</title>
 </head>
@@ -15,7 +17,7 @@ crossorigin="anonymous" />
 <div class="weather-app">
 <form class="search-form" id="search-form">
 <div class="row">
-<div class="col-8"><input type="search" placeholder="Type a city.."
+<div class="col-6"><input type="search" placeholder="Type a city.."
                     autofocus="on"
                     autocomplete="off"
                     id="city-input"
@@ -29,7 +31,7 @@ crossorigin="anonymous" />
               class="form-control btn btn-primary shadow-sm"
             />
           </div>
-          <div class="col-1">
+          <div class="col-3">
             <button onclick="getCurrentPosition()">Current position</button>
           
         </div>
@@ -54,7 +56,7 @@ crossorigin="anonymous" />
   <ul>
               <li>Humidity: <span id="humidity"></span>%</li>
               <li>Wind: <span id="wind"></span> km/h</li>
-              <li>id="description"></li>
+
               <li>Precipitation:0%</li>
             </ul>
               </div>
