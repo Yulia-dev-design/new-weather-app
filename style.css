@@ -52,8 +52,8 @@ li {
   line-height: 1;
   list-style: none;
 }
-.weather-icon {
-  height: 100px;
-  width: 100px;
+.img {
+  height: 20px;
+  width: 20px;
   margin-right: 10px;
 }
