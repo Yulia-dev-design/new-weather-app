@@ -46,6 +46,7 @@ li {
   font-weight: 150;
   height: 20px;
   list-style: none;
+  text-transform: capitalize;
 }
 .weather-temperature-img {
   height: 80px;
